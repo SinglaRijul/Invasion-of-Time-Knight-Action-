@@ -12,13 +12,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float playerXSpeed = 5f;
     [SerializeField] float playerYSpeed = 5f;
 
-
+    Animator playerAnim;
     Vector2 minBounds;
     Vector2 maxBounds;
+
+    bool isAttacking = false;
 
     void Start()
     {
         InitBounds();
+        playerAnim = GetComponent<Animator>();
     }
 
 
@@ -49,13 +52,22 @@ public class PlayerController : MonoBehaviour
         float deltaY = rawInput.y * playerYSpeed * Time.deltaTime;
 
 
-        float newPosx = Mathf.Clamp(transform.position.x + deltaX , minBounds.x , maxBounds.x);
-        float newPosy = Mathf.Clamp(transform.position.y + deltaY , minBounds.y , maxBounds.y);
+        //float newPosx = Mathf.Clamp(transform.position.x + deltaX , minBounds.x , maxBounds.x);
+        //float newPosy = Mathf.Clamp(transform.position.y + deltaY , minBounds.y , maxBounds.y);
 
 
-        transform.position = new Vector3(newPosx , newPosy); 
+        transform.position = new Vector3(transform.position.x + deltaX , transform.position.y + deltaY); 
 
     }
 
+    void OnAttack(InputValue value)
+    {
+        if(value.isPressed)
+        {
+            playerAnim.SetBool("isAttacking", !isAttacking);
+            isAttacking = !isAttacking;   
+        }
+
+    }
 
 }
