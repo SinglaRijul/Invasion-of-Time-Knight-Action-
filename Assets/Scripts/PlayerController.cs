@@ -36,8 +36,6 @@ public class PlayerController : MonoBehaviour
     }
 
 
-
-
     void InitBounds()
     {
         minBounds = Camera.main.ViewportToWorldPoint(Vector2.zero);
@@ -53,6 +51,9 @@ public class PlayerController : MonoBehaviour
 
     void MovePlayer()
     {
+
+        Debug.Log(playerRb.linearVelocity);
+
         float deltaX = rawInput.x * playerXSpeed * Time.deltaTime ;
         float deltaY = rawInput.y * playerYSpeed  * Time.deltaTime;
 
@@ -61,18 +62,31 @@ public class PlayerController : MonoBehaviour
         //float newPosy = Mathf.Clamp(transform.position.y + deltaY , minBounds.y , maxBounds.y);
         transform.position = new Vector3(transform.position.x + deltaX , transform.position.y + deltaY); 
 
-        
-        //playerRb.linearVelocity = new Vector3(deltaX , deltaY ,0f);
+        //Debug.Log(deltaX + " " + deltaY);
+        Vector3 playerVelocity =new Vector3(deltaX , deltaY , 1f );
+
+        playerRb.linearVelocity = playerVelocity; 
         //Debug.Log(playerRb.linearVelocity);
 
+       // playerRb.AddForce(Vector2.right * 5f);
+
         //flip sprite
-        isPlayerMoving = Math.Abs(playerRb.linearVelocityX) > Mathf.Epsilon;
+        // isPlayerMoving = Math.Abs(playerRb.linearVelocityX) > Mathf.Epsilon;
 
-        if(isPlayerMoving)
-        {
-            transform.localScale = new Vector2(Mathf.Sign(playerRb.linearVelocityX)*transform.localScale.x , transform.localScale.y);
+        // if(isPlayerMoving)
+        // {
+        //     transform.localScale = new Vector2(Mathf.Sign(playerRb.linearVelocityX)*transform.localScale.x , transform.localScale.y);
+        // }
+
+
+
+        if(rawInput.x>0){
+            transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x) , transform.localScale.y);
         }
-
+        else if (rawInput.x <0)
+        {
+            transform.localScale = new Vector2(-1f*Mathf.Abs(transform.localScale.x) , transform.localScale.y);
+        }
     }
 
     void OnAttack(InputValue value)
