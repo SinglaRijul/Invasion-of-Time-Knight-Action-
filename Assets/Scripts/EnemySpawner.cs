@@ -51,4 +51,10 @@ public class EnemySpawner : MonoBehaviour
         
         return new Vector2(randomX , randomY) ;
     }
+
+
+    public Vector2 GetCurrGemLocation()
+    {
+        return currGemLocation;
+    }
 }
