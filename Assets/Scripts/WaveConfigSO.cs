@@ -8,6 +8,8 @@ public class WaveConfigSO : ScriptableObject
     
     [SerializeField] List<GameObject> enemyPrefabs;
 
+    [SerializeField] int numbOfEnemies;
+
     [SerializeField] float baseEnemySpawnTime = 1f;
     [SerializeField] float enemySpawnTimeVariance = 0.2f;
     float timeBtwEnemySpawn;
@@ -30,6 +32,10 @@ public class WaveConfigSO : ScriptableObject
         return Random.Range(baseEnemySpawnTime-enemySpawnTimeVariance , baseEnemySpawnTime+enemySpawnTimeVariance);
     }
 
+    public int GetNumbOfEnemies()
+    {
+        return numbOfEnemies;
+    }
 
 
 }

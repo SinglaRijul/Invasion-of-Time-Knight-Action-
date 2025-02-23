@@ -11,12 +11,25 @@ public class Enemy : MonoBehaviour
     [SerializeField] Vector2 enemySpeed;
     [SerializeField] int enemyHealth;
     [SerializeField] float deathTime = 3f;
+
+    [SerializeField] int enemyDamage = 10;
+    [SerializeField] bool isTargetPlayer;
+
+    [SerializeField] bool isSupportEnemy;
+
+    [SerializeField] AudioClip attackSFX;
+    [SerializeField] AudioClip deathSFX;
     Vector2 targetPos;
 
     Animator enemyAnim;
     EnemySpawner enemySpawnerScript;
 
+    PlayerController playerScript;
+
+    GemController gemController;
+
     Rigidbody2D enemyRb;
+    AudioSource audioSource;
 
     int flipVar =1;
 
@@ -24,18 +37,25 @@ public class Enemy : MonoBehaviour
 
     Vector2 startPos;
 
+    [SerializeField] float damageCooldown =1f;
+
 
 
     void Awake() {
+
         enemyAnim = GetComponent<Animator>();
-        enemySpawnerScript = GameObject.FindAnyObjectByType<EnemySpawner>();
+        enemySpawnerScript = GameObject.Find("EnemySpawner").GetComponent<EnemySpawner>();
+        playerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+        gemController = FindAnyObjectByType<GemController>();
         enemyRb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
 
     }
 
     void Start()
     {
         startPos = transform.position;
+
         GetTargetPos();
         StartCoroutine("FlipEnemy");
 
@@ -57,6 +77,12 @@ public class Enemy : MonoBehaviour
         //transform.rotation = Quaternion.LookRotation(Vector3.up, targetPos);
 
         if(transform.position == (Vector3)targetPos){
+
+                if(flag)
+                {
+                    StartCoroutine("StartAttack");
+                }
+
                 flag = false;
                 PlayAttackingAnimation();
                 TakeDamage(0);
@@ -80,16 +106,24 @@ public class Enemy : MonoBehaviour
     {
         targetPos = UnityEngine.Vector2.zero ;
 
-        if(enemySpawnerScript!=null)
+        if(!isTargetPlayer)
         {
-            //targetPos = enemySpawnerScript.GetCurrGemLocation();
-            targetPos = new Vector2(17f,0f);
+
+            if(enemySpawnerScript!=null)
+            {
+                targetPos = enemySpawnerScript.GetCurrGemLocation();
+
+                //targetPos = new Vector2(17f,0f);
+            }
+
+
+            Vector2 randomPos = Random.insideUnitCircle * 3f;
+            targetPos -= randomPos;
         }
+        else{
+            targetPos = playerScript.gameObject.transform.position;
 
-
-        Vector2 randomPos = Random.insideUnitCircle * 2f;
-        targetPos -= randomPos;
-
+        }
         //Debug.Log(targetPos);
 
     }
@@ -113,7 +147,32 @@ public class Enemy : MonoBehaviour
         if(enemyHealth<=0)
         {
             PlayDeathAnimation();
+            PlayEnemyDeathSFX();
             Destroy(this.gameObject , deathTime);
         }
+    }
+
+    IEnumerator StartAttack()
+    {
+        if(!isSupportEnemy)
+        {
+            gemController.TakeDamage(enemyDamage);
+            PlayEnemyAttackSFX();
+            yield return new WaitForSeconds(damageCooldown);
+        }
+    }
+
+
+    void PlayEnemyAttackSFX()
+    {
+        audioSource.clip = attackSFX;
+        audioSource.Play();
+    }
+
+    void PlayEnemyDeathSFX()
+    {
+        audioSource.clip = deathSFX;
+        audioSource.Play();
+
     }
 }

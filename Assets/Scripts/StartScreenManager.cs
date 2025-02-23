@@ -10,7 +10,9 @@ public class StartScreenManager : MonoBehaviour
     [SerializeField] GameObject settingsObj;
     [SerializeField] string gameSceneText = "GameScene";
 
+
     [SerializeField] List<Button> menuButtons;
+    
 
     void Start()
     {

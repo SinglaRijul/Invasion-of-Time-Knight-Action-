@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: b5272cce06301f44bb6a4187cb864f1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -268993442387426594
+    second: timekeeper summon_0
+  - first:
+      213: -7420965266627444316
+    second: timekeeper summon_1
+  - first:
+      213: 2518133711412129813
+    second: timekeeper summon_2
+  - first:
+      213: -3461861840405352024
+    second: timekeeper summon_3
+  - first:
+      213: 4020346162982618497
+    second: timekeeper summon_4
+  - first:
+      213: -7339778038386040688
+    second: timekeeper summon_5
+  - first:
+      213: 168265156977135991
+    second: timekeeper summon_6
+  - first:
+      213: 5423242359127914830
+    second: timekeeper summon_7
+  - first:
+      213: 1874859966239991732
+    second: timekeeper summon_8
+  - first:
+      213: -2231921989627731632
+    second: timekeeper summon_9
+  - first:
+      213: 4082259129500800093
+    second: timekeeper summon_10
+  - first:
+      213: -3935979048540948348
+    second: timekeeper summon_11
+  - first:
+      213: 7937229882044627773
+    second: timekeeper summon_12
+  - first:
+      213: 8551158528847502485
+    second: timekeeper summon_13
+  - first:
+      213: -4469890337416044677
+    second: timekeeper summon_14
+  - first:
+      213: -3425725534268607690
+    second: timekeeper summon_15
+  - first:
+      213: -3081491847733838988
+    second: timekeeper summon_16
+  - first:
+      213: -9172354512356662334
+    second: timekeeper summon_17
+  - first:
+      213: -6014123934369652489
+    second: timekeeper summon_18
+  - first:
+      213: 7070672387284994447
+    second: timekeeper summon_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: timekeeper summon_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2869ba3e7544cf0800000000000000
+      internalID: -268993442387426594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 6
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1c820786f630990800000000000000
+      internalID: -7420965266627444316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510f7a5d44532f220800000000000000
+      internalID: 2518133711412129813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1b8257ffef4ffc0800000000000000
+      internalID: -3461861840405352024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1850fa6d8832bc730800000000000000
+      internalID: 4020346162982618497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09069cb03ced32a90800000000000000
+      internalID: -7339778038386040688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77192bdc44cc55200800000000000000
+      internalID: 168265156977135991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49bbaa213a334b40800000000000000
+      internalID: 5423242359127914830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7e553b437d40a10800000000000000
+      internalID: 1874859966239991732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_9
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 30
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0512bd196ce9601e0800000000000000
+      internalID: -2231921989627731632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_10
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d549dfeac0917a830800000000000000
+      internalID: 4082259129500800093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4883658b8e79069c0800000000000000
+      internalID: -3935979048540948348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_12
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bb2e34684b62e60800000000000000
+      internalID: 7937229882044627773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cd1024061dba670800000000000000
+      internalID: 8551158528847502485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_14
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f9d5dab62c7f1c0800000000000000
+      internalID: -4469890337416044677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6333fefd6c06570d0800000000000000
+      internalID: -3425725534268607690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_16
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 6
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bff8dad775c35d0800000000000000
+      internalID: -3081491847733838988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_17
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 6
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3a7011b2045b080800000000000000
+      internalID: -9172354512356662334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_18
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 6
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0e8b8552a898ca0800000000000000
+      internalID: -6014123934369652489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timekeeper summon_19
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 6
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89094ff213102260800000000000000
+      internalID: 7070672387284994447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      timekeeper summon_0: -268993442387426594
+      timekeeper summon_1: -7420965266627444316
+      timekeeper summon_10: 4082259129500800093
+      timekeeper summon_11: -3935979048540948348
+      timekeeper summon_12: 7937229882044627773
+      timekeeper summon_13: 8551158528847502485
+      timekeeper summon_14: -4469890337416044677
+      timekeeper summon_15: -3425725534268607690
+      timekeeper summon_16: -3081491847733838988
+      timekeeper summon_17: -9172354512356662334
+      timekeeper summon_18: -6014123934369652489
+      timekeeper summon_19: 7070672387284994447
+      timekeeper summon_2: 2518133711412129813
+      timekeeper summon_3: -3461861840405352024
+      timekeeper summon_4: 4020346162982618497
+      timekeeper summon_5: -7339778038386040688
+      timekeeper summon_6: 168265156977135991
+      timekeeper summon_7: 5423242359127914830
+      timekeeper summon_8: 1874859966239991732
+      timekeeper summon_9: -2231921989627731632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

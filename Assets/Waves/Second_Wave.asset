@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810035a6a1aa6c34ab9c649af916958d, type: 3}
+  m_Name: Second_Wave
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 8140795960860812133, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
+  - {fileID: 5188050769116045798, guid: 94247eaab8b6c6b41add5a91f34902d6, type: 3}
+  numbOfEnemies: 10
+  baseEnemySpawnTime: 2
+  enemySpawnTimeVariance: 0.5

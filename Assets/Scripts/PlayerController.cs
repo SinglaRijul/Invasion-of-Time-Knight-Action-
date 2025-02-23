@@ -13,7 +13,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float playerXSpeed = 5f;
     [SerializeField] float playerYSpeed = 5f;
 
+    [SerializeField] AudioClip attackSFX;
+    [SerializeField] Animation playerAttackAnim;
     Animator playerAnim;
+
+    AudioSource audioSource;
     Vector2 minBounds;
     Vector2 maxBounds;
 
@@ -27,12 +31,23 @@ public class PlayerController : MonoBehaviour
         InitBounds();
         playerAnim = GetComponent<Animator>();
         playerRb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
 
     void Update()
     {
         MovePlayer();
+
+
+        AnimatorStateInfo animState = playerAnim.GetCurrentAnimatorStateInfo(0);
+        if(animState.IsName("player_attack"))
+        {
+            isAttacking = true;
+        }
+        else{
+            isAttacking = false;
+        }
     }
 
 
@@ -97,21 +112,37 @@ public class PlayerController : MonoBehaviour
     {
         if(value.isPressed)
         {
-            playerAnim.SetBool("isAttacking", !isAttacking);
-            isAttacking = !isAttacking;   
+            //playerAnim.SetBool("isAttacking", true);
+            playerAnim.Play("player_attack");
+            
+            //play sfx
+            audioSource.clip = attackSFX;
+            audioSource.Play();
+            isAttacking = true;   
+            
         }
 
+
     }
 
-    void OnTriggerEnter2D(Collider2D other) 
-    {
-        if(other.tag == "Enemy" && isAttacking)
+    // void OnTriggerEnter2D(Collider2D other) 
+    // {
+    //     if(other.tag == "Enemy" && isAttacking)
+    //     {
+    //         Debug.Log("Enemy takes damage");
+    //         other.gameObject.GetComponent<Enemy>().TakeDamage(10);
+    //     }    
+    // }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {        
+        if(collision.gameObject.tag == "Enemy" && isAttacking)
         {
             Debug.Log("Enemy takes damage");
-            other.gameObject.GetComponent<Enemy>().TakeDamage(10);
-        }    
+            collision.gameObject.GetComponent<Enemy>().TakeDamage(10);
+        }   
+        
     }
-
 
 
 }

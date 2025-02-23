@@ -12,21 +12,33 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 19bb58c2a9a39e64cb4e5b841af9af79, type: 2}
+    - target: {fileID: 1547631597638950608, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
+      propertyPath: m_Radius
+      value: 0.5063316
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547631597638950608, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.020787466
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547631597638950608, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.010196865
+      objectReference: {fileID: 0}
     - target: {fileID: 4070108651423986208, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 7589724375119320039, guid: 8295ebd2a000948469b7348a2ae30ed3, type: 3}
     - target: {fileID: 7450039903723451333, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7450039903723451333, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7450039903723451333, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7450039903723451333, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -70,15 +82,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7450039903723451333, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8140795960860812133, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: m_Name
-      value: Enemy (1) Variant
+      value: Enemy (Exploding)
       objectReference: {fileID: 0}
+    - target: {fileID: 8402033630430864799, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
+      propertyPath: deathSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: a7e3a2a657190f54bb9a30d0ab91f6ab, type: 3}
     - target: {fileID: 8402033630430864799, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: deathTime
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402033630430864799, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
+      propertyPath: enemyDamage
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8402033630430864799, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: enemyHealth
@@ -87,6 +107,10 @@ PrefabInstance:
     - target: {fileID: 8402033630430864799, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
       propertyPath: enemySpeed.x
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402033630430864799, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
+      propertyPath: isTargetPlayer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
