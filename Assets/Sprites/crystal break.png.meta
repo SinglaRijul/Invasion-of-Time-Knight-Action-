@@ -1,0 +1,1205 @@
+fileFormatVersion: 2
+guid: c60982e52cc1f46479ef11aefabf895f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 551303203661952881
+    second: crystal break_0
+  - first:
+      213: -2024075067246976769
+    second: crystal break_1
+  - first:
+      213: 9219029686794729944
+    second: crystal break_2
+  - first:
+      213: -920537637536116323
+    second: crystal break_3
+  - first:
+      213: 6507802824158406770
+    second: crystal break_4
+  - first:
+      213: -2122259025915438355
+    second: crystal break_5
+  - first:
+      213: -491745978227353447
+    second: crystal break_6
+  - first:
+      213: 7297590559702305403
+    second: crystal break_7
+  - first:
+      213: 7618941974640263680
+    second: crystal break_8
+  - first:
+      213: 8081032970353754845
+    second: crystal break_9
+  - first:
+      213: -6223254521781661168
+    second: crystal break_10
+  - first:
+      213: -8500516201967377270
+    second: crystal break_11
+  - first:
+      213: -6937786902086399316
+    second: crystal break_12
+  - first:
+      213: 5666189233493335989
+    second: crystal break_13
+  - first:
+      213: -217479436531600229
+    second: crystal break_14
+  - first:
+      213: 992945701408376404
+    second: crystal break_15
+  - first:
+      213: -257925530287672857
+    second: crystal break_16
+  - first:
+      213: -198772055783095545
+    second: crystal break_17
+  - first:
+      213: -5348574540721814191
+    second: crystal break_18
+  - first:
+      213: 2535929507825027054
+    second: crystal break_19
+  - first:
+      213: 2393633507767867131
+    second: crystal break_20
+  - first:
+      213: 7685927371025537213
+    second: crystal break_21
+  - first:
+      213: -3041567000862787231
+    second: crystal break_22
+  - first:
+      213: -6183821434587443180
+    second: crystal break_23
+  - first:
+      213: -1327433680043594177
+    second: crystal break_24
+  - first:
+      213: -5803505539601477510
+    second: crystal break_25
+  - first:
+      213: -7860710912552070643
+    second: crystal break_26
+  - first:
+      213: 7227971009935914234
+    second: crystal break_27
+  - first:
+      213: -420647454766029026
+    second: crystal break_28
+  - first:
+      213: 696534721065586822
+    second: crystal break_29
+  - first:
+      213: 3659364750421959231
+    second: crystal break_30
+  - first:
+      213: -7249909020880704527
+    second: crystal break_31
+  - first:
+      213: -285929610822858525
+    second: crystal break_32
+  - first:
+      213: 264684761987062909
+    second: crystal break_33
+  - first:
+      213: 8305328089542858757
+    second: crystal break_34
+  - first:
+      213: 3575667558176949776
+    second: crystal break_35
+  - first:
+      213: 417316097486093624
+    second: crystal break_36
+  - first:
+      213: 2088337745407899230
+    second: crystal break_37
+  - first:
+      213: -3406811274350229476
+    second: crystal break_38
+  - first:
+      213: -1543808875815394296
+    second: crystal break_39
+  - first:
+      213: 2350356629259757888
+    second: crystal break_40
+  - first:
+      213: -4227439432164845383
+    second: crystal break_41
+  - first:
+      213: -3635119581068025571
+    second: crystal break_42
+  - first:
+      213: -1715291768118503625
+    second: crystal break_43
+  - first:
+      213: 668872895130711222
+    second: crystal break_44
+  - first:
+      213: -2226689939410412660
+    second: crystal break_45
+  - first:
+      213: 2856720631995914654
+    second: crystal break_46
+  - first:
+      213: 5223983358551346764
+    second: crystal break_47
+  - first:
+      213: 4889010469214470816
+    second: crystal break_48
+  - first:
+      213: -1707754726713435339
+    second: crystal break_49
+  - first:
+      213: 609032578388742022
+    second: crystal break_50
+  - first:
+      213: 6760267203221938980
+    second: crystal break_51
+  - first:
+      213: -6753440996714594705
+    second: crystal break_52
+  - first:
+      213: 12585491536803919
+    second: crystal break_53
+  - first:
+      213: -4095387169643468864
+    second: crystal break_54
+  - first:
+      213: -6427785532032553286
+    second: crystal break_55
+  - first:
+      213: -7030676619881629664
+    second: crystal break_56
+  - first:
+      213: -8735966808752183948
+    second: crystal break_57
+  - first:
+      213: 7239844725332244194
+    second: crystal break_58
+  - first:
+      213: -7382856744636325117
+    second: crystal break_59
+  - first:
+      213: 9168784144443032534
+    second: crystal break_60
+  - first:
+      213: 6034878139480681545
+    second: crystal break_61
+  - first:
+      213: -8095640241674343705
+    second: crystal break_62
+  - first:
+      213: -2857750135848191530
+    second: crystal break_63
+  - first:
+      213: 5573709774538626935
+    second: crystal break_64
+  - first:
+      213: 3669610510367504859
+    second: crystal break_65
+  - first:
+      213: -5279920878875260423
+    second: crystal break_66
+  - first:
+      213: -4029201348613746662
+    second: crystal break_67
+  - first:
+      213: -3197384272816091361
+    second: crystal break_68
+  - first:
+      213: 8608802312762386978
+    second: crystal break_69
+  - first:
+      213: -6372271319097701128
+    second: crystal break_70
+  - first:
+      213: 8312910045156880620
+    second: crystal break_71
+  - first:
+      213: 9018767515907873996
+    second: crystal break_72
+  - first:
+      213: -7560080904262852527
+    second: crystal break_73
+  - first:
+      213: -47693789335583794
+    second: crystal break_74
+  - first:
+      213: -3128916596134602413
+    second: crystal break_75
+  - first:
+      213: -6794957848548982442
+    second: crystal break_76
+  - first:
+      213: -6495136450690997534
+    second: crystal break_77
+  - first:
+      213: 3436328628057427128
+    second: crystal break_78
+  - first:
+      213: -838562345334846521
+    second: crystal break_79
+  - first:
+      213: 5530145236381522582
+    second: crystal break_80
+  - first:
+      213: -2753842389182658088
+    second: crystal break_81
+  - first:
+      213: -8677934467004673657
+    second: crystal break_82
+  - first:
+      213: 8153047791525517776
+    second: crystal break_83
+  - first:
+      213: -2799995589539388779
+    second: crystal break_84
+  - first:
+      213: 1156050885344340933
+    second: crystal break_85
+  - first:
+      213: 7752691130037754749
+    second: crystal break_86
+  - first:
+      213: 8986163444863110275
+    second: crystal break_87
+  - first:
+      213: 3721520915498466599
+    second: crystal break_88
+  - first:
+      213: 1557050424028827252
+    second: crystal break_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crystal break_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1773ec1c75f96a700800000000000000
+      internalID: 551303203661952881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0e40a437a09e3e0800000000000000
+      internalID: -2024075067246976769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d93e27d7a290ff70800000000000000
+      internalID: 9219029686794729944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91584855e79933f0800000000000000
+      internalID: -920537637536116323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278ee32503c505a50800000000000000
+      internalID: 6507802824158406770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea91fef8a83c82e0800000000000000
+      internalID: -2122259025915438355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998180063a7fc29f0800000000000000
+      internalID: -491745978227353447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7acc4323ff364560800000000000000
+      internalID: 7297590559702305403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0020fbaeb5bebb960800000000000000
+      internalID: 7618941974640263680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2c720eba8952070800000000000000
+      internalID: 8081032970353754845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0125c521cfe82a9a0800000000000000
+      internalID: -6223254521781661168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84284e4d89180a80800000000000000
+      internalID: -8500516201967377270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa48cd029708bf90800000000000000
+      internalID: -6937786902086399316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf538c461952ae40800000000000000
+      internalID: 5666189233493335989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94f49fca9b5bfcf0800000000000000
+      internalID: -217479436531600229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45682b5cad6a7cd00800000000000000
+      internalID: 992945701408376404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1f2b4c81aab6cf0800000000000000
+      internalID: -257925530287672857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70346cf4ed1dd3df0800000000000000
+      internalID: -198772055783095545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155049d0bcb06c5b0800000000000000
+      internalID: -5348574540721814191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee78751937e613320800000000000000
+      internalID: 2535929507825027054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6d9f84ef4e73120800000000000000
+      internalID: 2393633507767867131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8dd6fd836e9aa60800000000000000
+      internalID: 7685927371025537213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169f5097dee2ac5d0800000000000000
+      internalID: -3041567000862787231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41018f42b27ae2aa0800000000000000
+      internalID: -6183821434587443180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3eac1ed912049de0800000000000000
+      internalID: -1327433680043594177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70da04c57ec57fa0800000000000000
+      internalID: -5803505539601477510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d021c47a21529e290800000000000000
+      internalID: -7860710912552070643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af43d0e8659ee4460800000000000000
+      internalID: 7227971009935914234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17affa5e5f892af0800000000000000
+      internalID: -420647454766029026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68017de63a69aa900800000000000000
+      internalID: 696534721065586822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32ac743adca8c230800000000000000
+      internalID: 3659364750421959231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb618c3826236b90800000000000000
+      internalID: -7249909020880704527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8432ca88c280cf0800000000000000
+      internalID: -285929610822858525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_33
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c92bf73695ca300800000000000000
+      internalID: 264684761987062909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal break_34
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5089648d4e3724370800000000000000
+      internalID: 8305328089542858757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1464f977340d3074ea03770f1a0dba55
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      crystal break_0: 551303203661952881
+      crystal break_1: -2024075067246976769
+      crystal break_10: -6223254521781661168
+      crystal break_11: -8500516201967377270
+      crystal break_12: -6937786902086399316
+      crystal break_13: 5666189233493335989
+      crystal break_14: -217479436531600229
+      crystal break_15: 992945701408376404
+      crystal break_16: -257925530287672857
+      crystal break_17: -198772055783095545
+      crystal break_18: -5348574540721814191
+      crystal break_19: 2535929507825027054
+      crystal break_2: 9219029686794729944
+      crystal break_20: 2393633507767867131
+      crystal break_21: 7685927371025537213
+      crystal break_22: -3041567000862787231
+      crystal break_23: -6183821434587443180
+      crystal break_24: -1327433680043594177
+      crystal break_25: -5803505539601477510
+      crystal break_26: -7860710912552070643
+      crystal break_27: 7227971009935914234
+      crystal break_28: -420647454766029026
+      crystal break_29: 696534721065586822
+      crystal break_3: -920537637536116323
+      crystal break_30: 3659364750421959231
+      crystal break_31: -7249909020880704527
+      crystal break_32: -285929610822858525
+      crystal break_33: 264684761987062909
+      crystal break_34: 8305328089542858757
+      crystal break_4: 6507802824158406770
+      crystal break_5: -2122259025915438355
+      crystal break_6: -491745978227353447
+      crystal break_7: 7297590559702305403
+      crystal break_8: 7618941974640263680
+      crystal break_9: 8081032970353754845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

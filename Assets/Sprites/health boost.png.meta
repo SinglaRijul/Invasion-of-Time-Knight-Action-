@@ -572,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      health boost_0: -3104758070858799450
+      health boost_1: -5146026918670412499
+      health boost_10: 1842004401951728511
+      health boost_11: -2328348687438963850
+      health boost_12: -5640051312633951059
+      health boost_13: -7162675749891473716
+      health boost_14: 2063925978054115652
+      health boost_15: 112322533678226006
+      health boost_16: -8985969273478396189
+      health boost_17: -1584931624481036828
+      health boost_2: 7064464569562807857
+      health boost_3: -171382242676048529
+      health boost_4: 7704708761839469442
+      health boost_5: -787530130773745914
+      health boost_6: -7059096206460506276
+      health boost_7: 1262015173544576942
+      health boost_8: 4612766846907515611
+      health boost_9: -2909455917717022897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

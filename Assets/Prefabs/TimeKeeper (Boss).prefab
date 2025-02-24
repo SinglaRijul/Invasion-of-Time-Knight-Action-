@@ -175,7 +175,7 @@ MonoBehaviour:
   enemySpeed: {x: 3, y: 0}
   enemyHealth: 100
   deathTime: 3
-  enemyDamage: 50
+  enemyDamage: 30
   enemyPrefabs:
   - {fileID: 8140795960860812133, guid: 41e4c80d4a148404b97426c0b83e865b, type: 3}
   - {fileID: 5188050769116045798, guid: 94247eaab8b6c6b41add5a91f34902d6, type: 3}

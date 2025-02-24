@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float playerXSpeed = 5f;
     [SerializeField] float playerYSpeed = 5f;
 
+    [SerializeField] int playerDamage = 10;
     [SerializeField] AudioClip attackSFX;
     [SerializeField] Animation playerAttackAnim;
     Animator playerAnim;
@@ -139,10 +140,16 @@ public class PlayerController : MonoBehaviour
         if(collision.gameObject.tag == "Enemy" && isAttacking)
         {
             Debug.Log("Enemy takes damage");
-            collision.gameObject.GetComponent<Enemy>().TakeDamage(10);
+            collision.gameObject.GetComponent<Enemy>().TakeDamage(playerDamage);
         }   
         
     }
 
+
+    public void PrepBossFight()
+    {
+        playerDamage +=20;
+        playerXSpeed +=2f;
+    }
 
 }

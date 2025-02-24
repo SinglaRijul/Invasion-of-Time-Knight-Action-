@@ -39,6 +39,8 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] float damageCooldown =1f;
 
+    GameManager gameManagerScript;
+
 
 
     void Awake() {
@@ -46,6 +48,7 @@ public class Enemy : MonoBehaviour
         enemyAnim = GetComponent<Animator>();
         enemySpawnerScript = GameObject.Find("EnemySpawner").GetComponent<EnemySpawner>();
         playerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+        gameManagerScript = GameObject.Find("Game Manager").GetComponent<GameManager>();
         gemController = FindAnyObjectByType<GemController>();
         enemyRb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
@@ -117,7 +120,7 @@ public class Enemy : MonoBehaviour
             }
 
 
-            Vector2 randomPos = Random.insideUnitCircle * 3f;
+            Vector2 randomPos = Random.insideUnitCircle * 3.5f;
             targetPos -= randomPos;
         }
         else{
@@ -156,9 +159,16 @@ public class Enemy : MonoBehaviour
     {
         if(!isSupportEnemy)
         {
-            gemController.TakeDamage(enemyDamage);
-            PlayEnemyAttackSFX();
-            yield return new WaitForSeconds(damageCooldown);
+            while(true)
+            {
+                gemController.TakeDamage(enemyDamage);
+                PlayEnemyAttackSFX();
+                yield return new WaitForSeconds(damageCooldown);
+            }
+        }
+        else
+        {
+            gameManagerScript.SetStartTime(-10f);
         }
     }
 

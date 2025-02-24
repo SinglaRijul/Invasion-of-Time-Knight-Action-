@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        timeSlider.maxValue = 5;
         timeSlider.value = timeSlider.maxValue;
     }
 
@@ -37,11 +38,11 @@ public class GameManager : MonoBehaviour
 
 
         startTime -= Time.deltaTime;
-        timeSlider.value = (2*startTime)/60f;
+        timeSlider.value = ((5*startTime)/60f);
         //Debug.Log("time "+ startTime + " " + timeSlider.value);
         if(startTime <0f)
         {
-            GameOver();
+            SetGameOver(true);
         }
         
     }
@@ -80,7 +81,7 @@ public class GameManager : MonoBehaviour
         PlayGameOverMusic();
         gameOverObj.SetActive(true);
 
-        timePlayedText_lose.text = "Time Played: ";
+        timePlayedText_lose.text = "Time Played: " + Time.time + " sec";
 
 
     }
@@ -92,7 +93,7 @@ public class GameManager : MonoBehaviour
         PlayGameWinMusic();
         gameWinObj.SetActive(true);
 
-        timePlayedText_win.text = "Time Played: " + Time.time;
+        timePlayedText_win.text = "Time Played: " + Time.time + " sec";
     }
 
 
@@ -100,5 +101,13 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("StartScene");
     }
+
+
+    public void SetStartTime(float value)
+    {
+        startTime += value;
+        timeSlider.value = ((5*startTime)/60f);
+    }
+
 
 }

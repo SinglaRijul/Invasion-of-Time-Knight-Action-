@@ -37,9 +37,7 @@ public class BossScript : MonoBehaviour
 
     Vector2 startPos;
 
-    [SerializeField] float damageCooldown = 0.3f;
-
-
+    [SerializeField] float damageCooldown = 0.8f;
 
     void Awake() {
 
@@ -137,10 +135,12 @@ public class BossScript : MonoBehaviour
             //gemController.TakeDamage(enemyDamage);
             //PlayEnemyAttackSFX();
 
-            Instantiate(enemyPrefabs[Random.Range(0, enemyPrefabs.Count)],
+            GameObject currEnemy = enemyPrefabs[Random.Range(0, enemyPrefabs.Count)];
+            Vector2 origScale = currEnemy.transform.localScale;
+            GameObject instance = Instantiate(currEnemy,
                         new Vector2(Random.Range(-4f,4f), Random.Range(-6f,6f)),
-                        Quaternion.identity,
-                        transform);
+                        Quaternion.identity);
+            //instance.transform.localScale = origScale;
 
             yield return new WaitForSeconds(damageCooldown);
         }while(true);

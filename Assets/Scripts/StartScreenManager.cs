@@ -35,7 +35,7 @@ public class StartScreenManager : MonoBehaviour
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
         #else
-        Applciation.Quit();
+        Application.Quit();
         #endif
 
     }

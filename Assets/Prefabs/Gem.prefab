@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 8707606662157120471, guid: 1871d1c2d57b15e46a807c269d0c7d83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -125,7 +125,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -221,5 +221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e7eab0cd3e28b54fb023da751647d97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gemHealth: 100
+  gemHealth: 400
   gemBreakSFX: {fileID: 8300000, guid: ed2d1bebde43705468ab619bf7996c64, type: 3}
+  gemHealthText: {fileID: 0}

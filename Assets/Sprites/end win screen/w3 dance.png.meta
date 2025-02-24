@@ -547,7 +547,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      w3 dance_0: -6410011393908095139
+      w3 dance_1: -7288521322284250064
+      w3 dance_10: -6441424954030186387
+      w3 dance_11: -4283799245284335410
+      w3 dance_12: 6472565342777923572
+      w3 dance_13: 6850127684713024418
+      w3 dance_14: 6713728475596519054
+      w3 dance_15: 6677510264950038167
+      w3 dance_16: 3608015594733914951
+      w3 dance_2: -4203687033655678348
+      w3 dance_3: 2060659992796809028
+      w3 dance_4: 4084651260701401761
+      w3 dance_5: -5277359306215154639
+      w3 dance_6: 6896619743004343512
+      w3 dance_7: -568134863635570713
+      w3 dance_8: -4840376580705766577
+      w3 dance_9: 6582670537392627971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

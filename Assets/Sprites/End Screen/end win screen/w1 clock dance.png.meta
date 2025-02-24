@@ -156,7 +156,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -221,9 +221,9 @@ TextureImporter:
       name: w1 clock dance_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -243,9 +243,9 @@ TextureImporter:
       name: w1 clock dance_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,9 +265,9 @@ TextureImporter:
       name: w1 clock dance_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -287,9 +287,9 @@ TextureImporter:
       name: w1 clock dance_3
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -309,9 +309,9 @@ TextureImporter:
       name: w1 clock dance_4
       rect:
         serializedVersion: 2
-        x: 129
+        x: 128
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -331,9 +331,9 @@ TextureImporter:
       name: w1 clock dance_5
       rect:
         serializedVersion: 2
-        x: 161
+        x: 160
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -353,9 +353,9 @@ TextureImporter:
       name: w1 clock dance_6
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -375,9 +375,9 @@ TextureImporter:
       name: w1 clock dance_7
       rect:
         serializedVersion: 2
-        x: 225
+        x: 224
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -397,9 +397,9 @@ TextureImporter:
       name: w1 clock dance_8
       rect:
         serializedVersion: 2
-        x: 257
+        x: 256
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -419,9 +419,9 @@ TextureImporter:
       name: w1 clock dance_9
       rect:
         serializedVersion: 2
-        x: 289
+        x: 288
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -443,7 +443,7 @@ TextureImporter:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -463,9 +463,9 @@ TextureImporter:
       name: w1 clock dance_11
       rect:
         serializedVersion: 2
-        x: 351
+        x: 352
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -487,7 +487,7 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -507,9 +507,9 @@ TextureImporter:
       name: w1 clock dance_13
       rect:
         serializedVersion: 2
-        x: 417
+        x: 416
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -531,7 +531,7 @@ TextureImporter:
         serializedVersion: 2
         x: 448
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -551,9 +551,9 @@ TextureImporter:
       name: w1 clock dance_15
       rect:
         serializedVersion: 2
-        x: 479
+        x: 480
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -575,7 +575,7 @@ TextureImporter:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -595,9 +595,9 @@ TextureImporter:
       name: w1 clock dance_17
       rect:
         serializedVersion: 2
-        x: 545
+        x: 544
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -617,9 +617,9 @@ TextureImporter:
       name: w1 clock dance_18
       rect:
         serializedVersion: 2
-        x: 577
+        x: 576
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -639,9 +639,9 @@ TextureImporter:
       name: w1 clock dance_19
       rect:
         serializedVersion: 2
-        x: 609
+        x: 608
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -661,9 +661,9 @@ TextureImporter:
       name: w1 clock dance_20
       rect:
         serializedVersion: 2
-        x: 642
+        x: 640
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -683,9 +683,9 @@ TextureImporter:
       name: w1 clock dance_21
       rect:
         serializedVersion: 2
-        x: 673
+        x: 672
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -705,9 +705,9 @@ TextureImporter:
       name: w1 clock dance_22
       rect:
         serializedVersion: 2
-        x: 705
+        x: 704
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -727,9 +727,9 @@ TextureImporter:
       name: w1 clock dance_23
       rect:
         serializedVersion: 2
-        x: 737
+        x: 736
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -749,9 +749,9 @@ TextureImporter:
       name: w1 clock dance_24
       rect:
         serializedVersion: 2
-        x: 770
+        x: 768
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -771,9 +771,9 @@ TextureImporter:
       name: w1 clock dance_25
       rect:
         serializedVersion: 2
-        x: 801
+        x: 800
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -793,9 +793,9 @@ TextureImporter:
       name: w1 clock dance_26
       rect:
         serializedVersion: 2
-        x: 833
+        x: 832
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -815,9 +815,9 @@ TextureImporter:
       name: w1 clock dance_27
       rect:
         serializedVersion: 2
-        x: 865
+        x: 864
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -839,7 +839,7 @@ TextureImporter:
         serializedVersion: 2
         x: 896
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -859,9 +859,9 @@ TextureImporter:
       name: w1 clock dance_29
       rect:
         serializedVersion: 2
-        x: 927
+        x: 928
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -883,7 +883,7 @@ TextureImporter:
         serializedVersion: 2
         x: 960
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -903,9 +903,9 @@ TextureImporter:
       name: w1 clock dance_31
       rect:
         serializedVersion: 2
-        x: 993
+        x: 992
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -927,7 +927,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1024
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -947,9 +947,9 @@ TextureImporter:
       name: w1 clock dance_33
       rect:
         serializedVersion: 2
-        x: 1055
+        x: 1056
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -971,7 +971,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1088
         y: 0
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -991,9 +991,9 @@ TextureImporter:
       name: w1 clock dance_35
       rect:
         serializedVersion: 2
-        x: 1121
+        x: 1120
         y: 0
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1013,7 +1013,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3bfa240cf8d93084a8bfd15ab7e16aae
     internalID: 0
     vertices: []
     indices: 
@@ -1022,7 +1022,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      w1 clock dance_0: 1895913603718945497
+      w1 clock dance_1: -2968276425169897357
+      w1 clock dance_10: 241539290641243318
+      w1 clock dance_11: 1119281088145085227
+      w1 clock dance_12: 7463736541145379690
+      w1 clock dance_13: 4591606554339716519
+      w1 clock dance_14: 2193746442996249691
+      w1 clock dance_15: 8313268190632394142
+      w1 clock dance_16: -1864333918952538802
+      w1 clock dance_17: -2127876945088131038
+      w1 clock dance_18: -6423239522020248283
+      w1 clock dance_19: -3187486684640012548
+      w1 clock dance_2: -2262028147464605612
+      w1 clock dance_20: 949282092333335417
+      w1 clock dance_21: 4347502914432561739
+      w1 clock dance_22: -1544847242657998517
+      w1 clock dance_23: -5540270622929431184
+      w1 clock dance_24: -3853218739794528600
+      w1 clock dance_25: -8095889655193931455
+      w1 clock dance_26: -6574967824821691448
+      w1 clock dance_27: 8476858110302981093
+      w1 clock dance_28: 1421221586391536981
+      w1 clock dance_29: 6188564812038158086
+      w1 clock dance_3: 7089693164518581550
+      w1 clock dance_30: -3508170748621046168
+      w1 clock dance_31: -2531338506025184215
+      w1 clock dance_32: 1816575106805052309
+      w1 clock dance_33: -1481927319041589740
+      w1 clock dance_34: 2450945734771185984
+      w1 clock dance_35: 4039092104980153297
+      w1 clock dance_4: 2815143630362408141
+      w1 clock dance_5: -5299879724176902322
+      w1 clock dance_6: 8884528679126595689
+      w1 clock dance_7: -1149968435703932210
+      w1 clock dance_8: 6186669224319730060
+      w1 clock dance_9: 8434427598135665182
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -18,12 +18,14 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float timeBtwWaves = 1f;
 
     GameManager gameManagerScript;
+    PlayerController playerScript;
     int aliveEnemies =0;
 
     void Awake()
     {
         gemController = FindAnyObjectByType<GemController>();
         gameManagerScript = GameObject.Find("Game Manager").GetComponent<GameManager>();
+        playerScript = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     void Start()
@@ -56,7 +58,9 @@ public class EnemySpawner : MonoBehaviour
             yield return new WaitUntil(() => aliveEnemies == 0);
 
             ChangeGemLocation();
-            yield return new WaitForSeconds(timeBtwWaves);
+            gameManagerScript.SetStartTime(50f);   
+            gemController.SetGemHealth(30);         
+            yield return new WaitForSeconds(timeBtwWaves + 2f);
         }
         
 
@@ -110,6 +114,8 @@ public class EnemySpawner : MonoBehaviour
                 transform);
 
         gameManagerScript.PlayBossMusic();
+        playerScript.PrepBossFight();
+        
 
     }
 }
