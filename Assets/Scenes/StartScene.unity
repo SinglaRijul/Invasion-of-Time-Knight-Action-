@@ -1453,7 +1453,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Figh against time (literally) and save the gem that has unlimited powers
+  m_text: 'Fight against time (literally) and save the gem that has unlimited powers
     (very evil).
 
     Survive five waves of enemies, but beware the gem changes location
